@@ -1,0 +1,31 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ time_distributed (TimeDist  (None, 30, 223, 64)       256       
+ ributed)                                                        
+                                                                 
+ time_distributed_1 (TimeDi  (None, 30, 223, 64)       256       
+ stributed)                                                      
+                                                                 
+ time_distributed_2 (TimeDi  (None, 30, 221, 128)      24704     
+ stributed)                                                      
+                                                                 
+ time_distributed_3 (TimeDi  (None, 30, 28288)         0         
+ stributed)                                                      
+                                                                 
+ dropout (Dropout)           (None, 30, 28288)         0         
+                                                                 
+ lstm (LSTM)                 (None, 64)                7258368   
+                                                                 
+ dense (Dense)               (None, 64)                4160      
+                                                                 
+ dropout_1 (Dropout)         (None, 64)                0         
+                                                                 
+ dense_1 (Dense)             (None, 89)                5785      
+                                                                 
+=================================================================
+Total params: 7293529 (27.82 MB)
+Trainable params: 7293401 (27.82 MB)
+Non-trainable params: 128 (512.00 Byte)
+_________________________________________________________________

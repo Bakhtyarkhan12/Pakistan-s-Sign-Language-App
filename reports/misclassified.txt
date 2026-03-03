@@ -1,0 +1,20 @@
+True: Choti-ye, Predicted: seen
+True: Ttay, Predicted: seen
+True: owl, Predicted: Toain
+True: Eagle, Predicted: rray
+True: Meem, Predicted: Noon
+True: Tay, Predicted: Laam
+True: Behra, Predicted: Kab
+True: Zoain, Predicted: Zuaad
+True: Kesay, Predicted: Barai Mehrbani
+True: Dal, Predicted: zay
+True: Zuaad, Predicted: Zoain
+True: parrot, Predicted: Cuckoo
+True: Seekh raha hun, Predicted: Say
+True: Seekh raha hun, Predicted: Wao
+True: Meem, Predicted: Noon
+True: bari-ye, Predicted: Jeem
+True: Bay, Predicted: Nahi hai
+True: bari-ye, Predicted: seen
+True: Sheen, Predicted: bari-ye
+True: Firaun, Predicted: Behra
