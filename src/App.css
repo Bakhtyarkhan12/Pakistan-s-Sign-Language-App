@@ -1,0 +1,167 @@
+/* Base layout - ensure full screen */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eaf5ea; /* Light green background */
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #006400; /* Pakistani green */
+  color: rgb(34, 84, 11);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Home Page */
+.home-page {
+  min-height: calc(100vh - 80px); /* Remaining space after navbar */
+  padding: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Welcome */
+.welcome-section {
+  text-align: center;
+}
+
+.pak-flag {
+  font-size: 48px;
+}
+
+.welcome-title {
+  font-size: 2.2rem;
+  margin: 10px 0;
+  color: #0b3d0b;
+}
+
+.welcome-arabic {
+  font-size: 1.5rem;
+  color: #0b3d0b;
+  text-align: right;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #3d573d;
+}
+
+/* Sections */
+.section-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #0b3d0b;
+  margin-bottom: 20px;
+}
+
+/* Features */
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-grid button {
+  flex: 1 1 200px;
+  padding: 15px;
+  background-color: #d8f3dc;
+  border: 1px solid #a3d9a5;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.feature-grid button:hover {
+  background-color: #b7e4c7;
+}
+
+/* Lessons */
+.lesson-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.lesson-card {
+  background-color: #f0fff4;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 250px;
+}
+
+.lesson-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.progress-bar-container {
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #28a745;
+}
+
+.progress-text {
+  font-size: 12px;
+  text-align: right;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Quick Nav */
+.quick-nav {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quick-nav-item {
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.quick-nav-icon {
+  font-size: 2rem;
+}
+
+.quick-nav-text {
+  font-size: 14px;
+  color: #0b3d0b;
+  margin-top: 5px;
+}

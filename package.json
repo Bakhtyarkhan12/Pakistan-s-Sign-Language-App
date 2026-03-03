@@ -1,0 +1,61 @@
+{
+  "name": "signspeakly",
+  "version": "1.0.0",
+  "description": "SignSpeakly - Sign Language Learning and Translation",
+  "main": "main.jsx",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "vite test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1675466862",
+    "@mediapipe/drawing_utils": "^0.3.1675466124",
+    "@mediapipe/hands": "^0.4.1675469240",
+    "@mediapipe/holistic": "^0.5.1675471629",
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@tensorflow-models/handpose": "^0.1.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.22.0",
+    "@tensorflow/tfjs-core": "^4.22.0",
+    "axios": "^1.10.0",
+    "firebase": "^11.7.3",
+    "onnxruntime-web": "^1.22.0",
+    "react": "^18.2.0",
+    "react-context-api": "^0.0.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.3.1",
+    "react-player": "^2.16.0",
+    "react-router-dom": "^7.6.2",
+    "react-toastify": "^7.0.4",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.16",
+    "vite": "^7.0.4"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
