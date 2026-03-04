@@ -49,8 +49,8 @@ The model file and dataset are too large for GitHub so you need to download them
 
 | What | Link | Where to put it |
 |---|---|---|
-| sign_model.keras | [(https://drive.google.com/drive/folders/1phJPww-mWj0tU6x6cd8MdDnzDKKBVQRD?usp=sharing)] | `models/sign_model.keras` |
-| PSL Dataset | [https://drive.google.com/drive/folders/1SN8iSIeW9yoD7pmqaW2x-BL-ecSJr_nw?usp=sharing] | `data/` |
+| sign_model.keras | [https://huggingface.co/Bakhtyar12/Pakistani-SignLanguage-Model]| `models/sign_model.keras` |
+| PSL Dataset | [https://huggingface.co/datasets/Bakhtyar12/Pakistani-Sign-Language] | `data/` |
 
 The backend will throw an error if these are missing so make sure you do this first.
 
